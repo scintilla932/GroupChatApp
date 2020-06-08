@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Heebo:wght@500&display=swap');
+body{
+    height: 100vh;
+    background-image: url('../bg.png');
+}
+.logo{
+    display: block;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+}
+
+h1{
+    margin: 5px 1px;
+    font-weight: bolder;
+    color: rgb(1, 105, 140);
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+span{
+    font-family: 'Caveat', cursive;
+    font-weight: 900;
+    color: rgb(167, 240, 94);
+    background-color: rgb(4, 104, 255);
+    border-radius: 7px;
+}
+
+.container{
+    max-width: 955px;
+    border: 2px solid #013344;
+    border-radius: 15px;
+    margin: auto;
+    height: 60vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 2px;
+    background: url(../container_bg.jpg)center center;
+}
+
+.container::-webkit-scrollbar{
+    display: none;
+}
+
+.message{
+    background-color: rgb(99, 167, 164);
+    color: #013344;
+    width: 24%;
+    padding: 10px;
+    margin: 17px 3px;
+    border: 2px solid  #013344;
+    border-radius: 5px;
+}
+
+.left{
+    float: left;
+    clear: both;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+
+.center{
+    float: right;
+    clear: both;
+    background: none;
+    margin: 5px 341px;
+    border: 3px outset #052e36;
+    text-align: center;
+    color: rgb(99, 167, 164);
+}
+
+#send-container{
+    display: block;
+    margin: auto;
+   text-align: center;
+    max-width: 1085px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#messageInp{
+    width: 85%;
+    border: 2px solid #013344;
+    margin: 0px 5px;
+    border-radius: 6px;
+    height: 34px;
+    font-size: 17px;
+    background-color: #dcf4fd;
+    color: #013344;
+    font-family: 'Baloo Bhai 2', cursive;
+    outline: none;
+}
+
+.btn{
+    width: 9%;
+    cursor: pointer;
+    border: 2px solid #013344;
+    border-radius: 6px;
+    height: 40px;
+    background-image: radial-gradient(rgb(255, 255, 255), rgb(0, 153, 204));
+    outline: none;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
